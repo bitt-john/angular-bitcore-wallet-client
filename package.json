@@ -7,7 +7,7 @@
   "devDependencies": {
     "browserify": "^9.0.3",
     "uglify": "^0.1.1",
-    "bitcore-wallet-client": "0.0.40"
+    "bitcore-wallet-client": "troggy/bitcore-wallet-client#2a0135e"
   },
   "repository": {
     "url": "git://github.com/bitpay/angular-bitcore-wallet-client.git",
