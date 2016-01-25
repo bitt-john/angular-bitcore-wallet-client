@@ -16182,7 +16182,7 @@ Hash.sha256sha256 = function(buf) {
 
 Hash.ripemd160 = function(buf) {
   $.checkArgument(BufferUtil.isBuffer(buf));
-  return crypto.createHash('ripemd160').update(buf).digest();
+  return crypto.createHash('rmd160').update(buf).digest();
 };
 
 // Node.js crypto ripemd160 hashes are not supported in a browser
